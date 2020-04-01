@@ -22,7 +22,7 @@ public class Pegawai {
         return this.nama;
     }
 
-    public int getGaji(){
+    public int hitungGaji(){
         return 1500000;
     }
 }

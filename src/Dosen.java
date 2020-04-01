@@ -16,8 +16,8 @@ public class Dosen extends Pegawai{
     }
 
     @Override
-    public int getGaji(){
+    public int hitungGaji(){
         int total_gaji = jumlahSKS*TARIF_SKS;
-        return total_gaji+super.getGaji();
+        return total_gaji+super.hitungGaji();
     }
 }

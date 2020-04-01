@@ -15,8 +15,8 @@ public class Staf extends Pegawai{
     }
 
     @Override
-    public int getGaji(){
+    public int hitungGaji(){
         int total_gaji = jumlah_kehadiran*TARIF_HARIAN;
-        return total_gaji+super.getGaji();
+        return total_gaji+super.hitungGaji();
     }
 }
