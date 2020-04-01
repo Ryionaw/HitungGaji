@@ -1,12 +1,11 @@
-public class Staf extends Pegawai{
+public class Staff extends Pegawai{
 
     private int jumlah_kehadiran;
     private final int TARIF_HARIAN = 220000;
-
-    public Staf(){
-
+    //  default construct
+    public Staff(){
     }
-    public Staf(String nip, String nama, String alamat) {
+    public Staff(String nip, String nama, String alamat) {
         super(nip, nama, alamat);
     }
 

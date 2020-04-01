@@ -4,8 +4,8 @@ public class Pegawai {
     private String nama;
     private String alamat;
 
+    // default construct
     public Pegawai(){
-
     }
 
     public Pegawai(String nip, String nama, String alamat) {
